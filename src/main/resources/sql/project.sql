@@ -16,7 +16,7 @@ select * from salgrade;
 --
 select count(*) from country;
 select count(*) from city;
-select count(*) from countrylanguage;
+select count(*) from country_language;
 
 select * from country  where code='KOR';
 select * from city  where countrycode='USA';
